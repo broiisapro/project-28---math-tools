@@ -1,61 +1,99 @@
-## Overview
+---
 
-This Math Tool App provides a collection of mathematical utilities to help users with various calculations. The app offers a range of functions, including basic arithmetic, geometry calculations, trigonometric operations, and a scientific calculator. It's designed to be interactive and user-friendly, allowing users to choose from different mathematical tools.
+# Math Tool App
+
+Welcome to the **Math Tool App**, a versatile and user-friendly command-line application that provides a variety of mathematical tools for calculations, solving equations, and visualizing functions. This app offers functions ranging from basic geometric calculations to advanced topics like matrix operations and graph plotting.
 
 ## Features
 
-- **Calculate Area**: Calculates the area of various shapes such as squares, rectangles, circles, and triangles.
-- **Calculate Volume**: Calculates the volume of 3D shapes such as cubes, rectangular prisms, spheres, cylinders, and cones.
-- **Calculate Surface Area**: Calculates the surface area of 3D shapes like cubes, rectangular prisms, spheres, and cylinders.
-- **Calculate Angles**: Computes sine, cosine, and tangent for a given angle in degrees.
-- **Calculate Hypotenuse**: Computes the hypotenuse of a right triangle given the lengths of the other two sides using the Pythagorean theorem.
-- **Scientific Calculator**: Allows users to input complex mathematical expressions, including trigonometric functions, and calculates the result.
-- **Other Tools**: Includes additional tools like calculating factorials and logarithms with custom bases.
+### 1. **Area Calculation**
+   - Calculate the area of common geometric shapes:
+     - Square
+     - Rectangle
+     - Circle
+     - Triangle
 
-## Requirements
+### 2. **Volume Calculation**
+   - Calculate the volume of 3D shapes:
+     - Cube
+     - Rectangular Prism
+     - Sphere
+     - Cylinder
+     - Cone
 
-This app requires Python 3 and the `math` module (which is part of the Python standard library).
+### 3. **Surface Area Calculation**
+   - Calculate the surface area of:
+     - Cube
+     - Rectangular Prism
+     - Sphere
+     - Cylinder
 
-## Functions
+### 4. **Angle Calculation**
+   - Compute the sine, cosine, and tangent of an angle in degrees.
 
-### `main_menu()`
-Displays the main menu with available options for the user to select a calculation.
+### 5. **Hypotenuse Calculation**
+   - Calculate the hypotenuse of a right triangle using the Pythagorean theorem.
 
-### `calculate_area()`
-Prompts the user to choose a shape (Square, Rectangle, Circle, Triangle) and calculates its area.
+### 6. **Scientific Calculator**
+   - Perform advanced mathematical calculations (e.g., `2+2`, `sin(30)`).
 
-### `calculate_volume()`
-Prompts the user to choose a 3D shape (Cube, Rectangular Prism, Sphere, Cylinder, Cone) and calculates its volume.
+### 7. **Other Mathematical Tools**
+   - Factorial calculation.
+   - Logarithmic calculation (base `e` or custom base).
 
-### `calculate_surface_area()`
-Prompts the user to choose a 3D shape (Cube, Rectangular Prism, Sphere, Cylinder) and calculates its surface area.
+### 8. **Matrix Operations**
+   - Perform various matrix operations:
+     - Matrix addition
+     - Matrix multiplication
+     - Determinant of a matrix
+     - Inverse of a matrix (if the determinant is non-zero)
 
-### `calculate_angles()`
-Prompts the user to choose a trigonometric function (Sine, Cosine, Tangent) and calculates the value for the given angle in degrees.
+### 9. **Prime Number Check**
+   - Check whether a number is prime.
 
-### `calculate_hypotenuse()`
-Calculates the hypotenuse of a right triangle given the lengths of the other two sides.
+### 10. **Quadratic Equation Solver**
+   - Solve quadratic equations of the form `ax^2 + bx + c = 0`.
 
-### `scientific_calculator()`
-Allows the user to input a mathematical expression (e.g., `2+2`, `sin(30)`) and evaluates it using Python's built-in math functions.
+### 11. **Unit Converter**
+   - Convert between different units:
+     - Distance: Meters to Kilometers
+     - Temperature: Celsius to Fahrenheit
 
-### `other_tools()`
-Includes extra tools for calculating factorials and logarithms. The logarithm can be computed with a custom base.
+### 12. **Graphing Functions**
+   - Plot mathematical functions (e.g., `sin(x)`, `cos(x)`) using **matplotlib**.
 
-## Usage
+## Example
 
-### Running the App
-1. To start the app, run the script in Python.
-2. The main menu will appear, allowing the user to select an option by entering the corresponding number (e.g., `1` to calculate the area).
-3. Follow the prompts to enter necessary values (e.g., lengths, radii, angles).
-4. Results will be displayed after the calculation.
-5. To exit the app, select option `0` from the main menu.
+Here’s an example of how the app works:
 
-## Notes
+```
+Welcome to the Math Tool App!
 
-- This program runs in a loop, allowing users to perform multiple calculations without restarting.
-- All input values are taken as floating-point numbers, except for the factorial tool, which accepts integers.
-- The scientific calculator uses the `eval()` function to evaluate user input expressions safely by limiting access to Python's built-in functions, allowing only the functions from the `math` module.
+1. Calculate Area
+2. Calculate Volume
+3. Calculate Surface Area
+4. Calculate Angles
+5. Calculate Hypotenuse
+6. Scientific Calculator
+7. Other Tools
+8. Matrix Operations
+9. Prime Number Check
+10. Solve Quadratic Equation
+11. Unit Converter
+12. Graphing Functions
+0. Exit
+Select an option: 1
 
+Choose shape for area calculation:
+1. Square
+2. Rectangle
+3. Circle
+4. Triangle
+Select a shape: 3
+Enter the radius of the circle: 5
+Area of circle: 78.53981633974483
+```
 
-readme made with AI assistance
+---
+
+readme was made with the assistance of AI
