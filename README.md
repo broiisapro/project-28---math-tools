@@ -56,3 +56,6 @@ Includes extra tools for calculating factorials and logarithms. The logarithm ca
 - This program runs in a loop, allowing users to perform multiple calculations without restarting.
 - All input values are taken as floating-point numbers, except for the factorial tool, which accepts integers.
 - The scientific calculator uses the `eval()` function to evaluate user input expressions safely by limiting access to Python's built-in functions, allowing only the functions from the `math` module.
+
+
+readme made with AI assistance
